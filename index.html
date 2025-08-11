@@ -4,7 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Supervisor Readiness Portfolio - Krishna Vas Azimera</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px;
+            border-bottom: 4px solid #A32638;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 90px;
+            margin-right: 20px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            color: #A32638;
+        }
+
+        .header-text h2 {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        nav {
+            background: #A32638;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .section-light {
+            background: #f4f4f4;
+        }
+
+        .section-dark {
+            background: #fff;
+        }
+
+        h2 {
+            color: #A32638;
+        }
+
+        .download-card {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 20px;
+            background: #A32638;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download-card:hover {
+            background: #7a1c2a;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -12,7 +116,7 @@
 <header>
     <div class="header-container">
         <img src="cumberland_logo.png" alt="Cumberland University Logo" class="logo">
-        <div>
+        <div class="header-text">
             <h1>IT Supervisor Readiness Portfolio</h1>
             <h2>Krishna Vas Azimera</h2>
             <p>Cumberland University – Information Technology Field Experience–EX20<br>
@@ -36,7 +140,7 @@
 </nav>
 
 <!-- Executive Proposal -->
-<section id="proposal">
+<section id="proposal" class="section-light">
     <h2>Executive Proposal</h2>
     <p>This proposal outlines my plan to develop a professional, live website that will serve as an IT Supervisor Readiness Portfolio. The goal is to demonstrate my qualifications, leadership potential, and readiness for a supervisory or junior IT management role in the U.S. technology industry. This site will act as a centralized, digital portfolio—showcasing essential project work, performance tools, leadership resources, and communication strategies aligned with the expectations of modern IT leadership roles.</p>
 
@@ -57,42 +161,42 @@
 </section>
 
 <!-- Downloads -->
-<section id="gantt">
-    <h2>Gantt Chart</h2>
-    <a class="download-card" href="Azimera_ISR_GanttChart.pdf" download>📄 Download Gantt Chart (PDF)</a>
+<section id="gantt" class="section-dark">
+    <h2>📅 Gantt Chart</h2>
+    <a class="download-card" href="Azimera_ISR_GanttChart.pdf" download>Download Gantt Chart (PDF)</a>
 </section>
 
-<section id="coaching">
-    <h2>Coaching & Communication Toolkit</h2>
-    <a class="download-card" href="Garikipati_ISR_CoachingToolkit.zip" download>📦 Download Coaching Toolkit (ZIP)</a>
+<section id="coaching" class="section-light">
+    <h2>💬 Coaching & Communication Toolkit</h2>
+    <a class="download-card" href="Garikipati_ISR_CoachingToolkit.zip" download>Download Coaching Toolkit (ZIP)</a>
 </section>
 
-<section id="customer">
-    <h2>Customer Service & Incident Toolkit</h2>
-    <a class="download-card" href="Azimera_ISR_CustomerToolkit.zip" download>📦 Download Customer Toolkit (ZIP)</a>
+<section id="customer" class="section-dark">
+    <h2>📞 Customer Service & Incident Toolkit</h2>
+    <a class="download-card" href="Azimera_ISR_CustomerToolkit.zip" download>Download Customer Toolkit (ZIP)</a>
 </section>
 
-<section id="kpi">
-    <h2>KPI Dashboard & Mini Budget</h2>
-    <a class="download-card" href="Azimera_ISR_KPIBudget.zip" download>📦 Download KPI & Budget (ZIP)</a>
+<section id="kpi" class="section-light">
+    <h2>📊 KPI Dashboard & Mini Budget</h2>
+    <a class="download-card" href="Azimera_ISR_KPIBudget.zip" download>Download KPI & Budget (ZIP)</a>
 </section>
 
-<section id="team">
-    <h2>Team Leadership & HR Tools</h2>
-    <a class="download-card" href="Azimera_ISR_TeamLeadership.zip" download>📦 Download Team Leadership (ZIP)</a>
+<section id="team" class="section-dark">
+    <h2>👥 Team Leadership & HR Tools</h2>
+    <a class="download-card" href="Azimera_ISR_TeamLeadership.zip" download>Download Team Leadership (ZIP)</a>
 </section>
 
-<section id="ethics">
-    <h2>Ethics, Systems, and Culture</h2>
-    <a class="download-card" href="Azimera_ISR_EthicsCulture.zip" download>📦 Download Ethics & Culture (ZIP)</a>
+<section id="ethics" class="section-light">
+    <h2>⚖ Ethics, Systems, and Culture</h2>
+    <a class="download-card" href="Azimera_ISR_EthicsCulture.zip" download>Download Ethics & Culture (ZIP)</a>
 </section>
 
 <!-- Contact -->
-<section id="contact">
-    <h2>Contact</h2>
+<section id="contact" class="section-dark">
+    <h2>📩 Contact</h2>
     <p>Email: <a href="mailto:Kazimera24@students.cumberland.edu">Kazimera24@students.cumberland.edu</a></p>
     <p>Phone: +1 (732) 762-3799</p>
-    <a class="download-card" href="Krishna%20Resume.pdf" download>📄 Download Résumé (PDF)</a>
+    <a class="download-card" href="Krishna%20Resume.pdf" download>Download Résumé (PDF)</a>
 </section>
 
 <footer>
